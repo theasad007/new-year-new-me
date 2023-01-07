@@ -41,9 +41,7 @@ header {
 	font-weight: 600;
 	border-radius: 5px;
 }
-.btn-regular:hover {
-    background-color: #da5520;
-}
+
 /* About Area Styles */
 .about-area {
 	padding: 130px;
@@ -82,6 +80,7 @@ header {
 	color: #16D886;
 	margin-right: 15px;
 }
+
 /* Plan Area Styles */
 .plan-area {
 	padding-bottom: 130px;
@@ -117,6 +116,7 @@ header {
 	color: #737272;
 	font-size: 25px;
 }
+
 /* Call Area Styles */
 .call-area {
 	width: 1140px;
@@ -145,9 +145,6 @@ header {
 	font-size: 20px;
 	font-weight: 600;
 	border-radius: 5px;
-}
-.btn-secondary:hover {
-    
 }
 
 /* Clients Area Styles */
