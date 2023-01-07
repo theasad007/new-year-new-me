@@ -45,6 +45,9 @@ header {
     background-color: #da5520;
 }
 /* About Area Styles */
+.about-area {
+	padding: 130px;
+}
 .about {
 	width: 1170px;
 	margin: 0 auto;
@@ -81,9 +84,11 @@ header {
 }
 /* Plan Area Styles */
 .plan-area {
+	padding-bottom: 130px;
+}
+.plan-details {
     width: 1140px;
     margin: 0 auto;
-	padding: 130px 0;
 }
 .plan-heading {
 	text-align: center;
@@ -116,4 +121,110 @@ header {
 .call-area {
 	width: 1140px;
 	margin: 0 auto;
+}
+.call-details {
+    background: url(../images/watch.png) no-repeat scroll center center / cover;
+	border-radius: 8px;
+	background-blend-mode: multiply;
+}
+.call-details-gradient {
+	padding: 60px 65px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+}
+.call-title {
+	font-size: 40px;
+	margin-bottom: 25px;
+	color: #fff;
+}
+.btn-secondary {
+	background: #ffffff;
+    color: #F15B22;
+	border: 0;
+	padding: 20px 35px;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+.btn-secondary:hover {
+    
+}
+
+/* Clients Area Styles */
+.client-area {
+	padding: 130px 0;
+}
+.client-details {
+	width: 1140px;
+	margin: 0 auto;
+}
+.client-heading {
+	text-align: center;
+}
+.client-title {
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 60px;
+}
+.logos {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+.client-logo {
+	padding: 20px;
+	border: 1px solid #ededed;
+	border-radius: 5px;
+}
+.client-logo img {
+	width: 100%;
+}
+
+/* Footer Area Style */
+footer {
+	background-color: #151414;
+	padding: 130px 0;
+}
+.footer-details {
+	width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-information {
+	width: 500px;
+}
+.footer-title {
+	color: #F8F8F8;
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+.footer-information p {
+	color: #FFF;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 25px;
+}
+.footer-social {
+	list-style: none;
+	display: flex;
+	gap: 17px;
+}
+.footer-subscribe {
+	width: 325px;
+}
+.subscribe-title {
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.footer-subscribe #email {
+	width: 100%;
+	padding: 20px;
+	font-size: 18px;
+	color: #F3F3F3;
+	background: #151414;
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	margin-bottom: 15px;
 }
